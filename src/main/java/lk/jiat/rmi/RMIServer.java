@@ -13,6 +13,8 @@ public class RMIServer {
 
             System.out.println("RMI server started...");
 
+            System.out.println();
+
         }catch (Exception e){
 
             throw  new RuntimeException(e);
