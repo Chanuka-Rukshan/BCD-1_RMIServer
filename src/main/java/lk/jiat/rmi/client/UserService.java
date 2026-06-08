@@ -7,8 +7,8 @@ import java.util.List;
 
 public interface UserService {
     User getUserById(int id) throws RemoteException;
-    void addUser(User user) throws RemoteException;
-    void updateUser(User user) throws RemoteException;
+    void addUser(Integer id,User user) throws RemoteException;
+    void updateUser(Integer id,User user) throws RemoteException;
     void deleteUser(int id) throws RemoteException;
     List<User> getAllUsers() throws RemoteException;
 }
